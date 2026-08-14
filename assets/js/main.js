@@ -67,14 +67,16 @@ menu.addEventListener("click", () => {
 
 });
 
-overlay.addEventListener("click",()=>{
+if (overlay) {
+    overlay.addEventListener("click", () => {
 
-    nav.classList.remove("active");
-    overlay.classList.remove("active");
+        nav.classList.remove("active");
+        overlay.classList.remove("active");
 
-    menuIcon.classList.replace("fa-xmark","fa-bars");
+        menuIcon.classList.replace("fa-xmark", "fa-bars");
 
-});
+    });
+}
 
 document.querySelectorAll("nav a").forEach(link=>{
 
