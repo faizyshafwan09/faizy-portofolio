@@ -1063,3 +1063,16 @@ body.light-theme .copyright{
 
 }
 
+.about blockquote{
+    margin: 25px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #4f46e5;
+    font-style: italic;
+    color: #666;
+    line-height: 1.8;
+}
+
+.about .btn-primary{
+    display: inline-block;
+    margin-top: 20px;
+}
